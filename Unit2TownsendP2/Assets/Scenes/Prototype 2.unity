@@ -206,6 +206,9 @@ MonoBehaviour:
   speed: 20
   xRange: 15
   projectileprefab: {fileID: 728053192989753924, guid: bef9af78daf024b4b9c7a996c075247a, type: 3}
+  zMin: 0
+  zmax: 0
+  verticalInput: 0
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -642,7 +645,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354905316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.49, y: 4.07, z: 18.7}
+  m_LocalPosition: {x: 2.64, y: 4.07, z: 22.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
