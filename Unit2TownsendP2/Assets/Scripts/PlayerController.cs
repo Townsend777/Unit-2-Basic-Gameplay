@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public GameObject projectileprefab;
 
     public float zMin;
-    public float zmax;
+    public float zMax;
     public float verticalInput;
 
     // Start is called before the first frame update
@@ -30,8 +30,19 @@ public class PlayerController : MonoBehaviour
 
         if (transform.position.x > xRange)
         {
-            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z); 
+        } 
+
+        if(transform.position.z < zMin)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zMin);
+        } 
+
+        if(transform.position.z > zMax)
+        {
+            transform.position = new Vector3(transform.position.x, transform.position.y, zMax);
         }
+
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 

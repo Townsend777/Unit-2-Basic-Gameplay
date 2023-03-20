@@ -1103,6 +1103,7 @@ GameObject:
   - component: {fileID: 2776637466979390684}
   - component: {fileID: 326160698870591894}
   - component: {fileID: 2542966718496212174}
+  - component: {fileID: 8797535167991935267}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Untagged
@@ -1182,6 +1183,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe6b2a70fe33ca34086e5e225509e071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8797535167991935267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2776637468321892217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b74f33ad631e1e45a0e70ddc340d391, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2776637468321895187
